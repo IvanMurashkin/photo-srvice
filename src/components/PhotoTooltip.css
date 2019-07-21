@@ -1,0 +1,23 @@
+.photo-tooltip-wrapper {
+    position: absolute;
+    padding: 2px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 5px;
+    max-width: 400px;
+}
+
+.photo-tooltip {
+    position: relative;
+}
+
+.photo-tooltip::before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    bottom: 29px;
+    left: 40px;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 15px solid  rgba(0, 0, 0, 0.8);
+}

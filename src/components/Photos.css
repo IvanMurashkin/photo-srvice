@@ -1,0 +1,17 @@
+.photos-item {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    overflow-y: auto;
+    height: 400px;
+}
+
+.parent-album-title {
+    position: relative;
+    bottom: 4px;
+}
+
+.folder-icon {
+    width: 25px;
+    margin: 0 8px;
+}

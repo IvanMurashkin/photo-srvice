@@ -1,0 +1,21 @@
+header {
+    height: 30px;
+    background-color: #373737;
+    display: flex;
+    padding: 10px 20px;
+    justify-content: flex-end;
+}
+
+.btn-auth, .btn-upload-albums {
+    width: 200px;
+    background-color: #6e6e6e;
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 15px;
+    font-size: 14px;
+}
+
+.btn-auth {
+    background-color: #2067bc;
+}

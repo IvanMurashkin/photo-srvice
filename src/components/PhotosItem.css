@@ -1,0 +1,28 @@
+
+.photo-item-wrapper {
+    width: 160px;
+    height: 210px;
+    border-radius: 10px;
+    border: 1px solid #dedede;
+    margin: 10px;
+    background-color: #eeefee;
+    position: relative;
+}
+
+.link-select-photo {
+    color: #2067bc;
+    text-decoration: underline;
+    position: absolute;
+    bottom: 3px;
+}
+
+.photo {
+    width: 100%;
+    height: 88%;
+    border-radius: 10px 10px 0 0;
+}
+
+.flag-icon {
+    width: 19px;
+    margin-left: 3px;
+}
